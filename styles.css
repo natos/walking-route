@@ -1,0 +1,49 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', 'Helvetica', sans-serif;
+}
+#map {
+  height: 100%;
+  float: left;
+  width: 70%;
+  height: 100%;
+}
+#route {
+  width: 100%;
+}
+#right-panel {
+  width: 26%;
+  padding: 0 2%;
+  float: left;
+  text-align: left;
+  height: 100%;
+  overflow: scroll;
+}
+#inner-panel {
+  padding: 2em 0;
+}
+#right-panel select {
+  width: 100%;
+}
+#directions-panel {
+  margin-top: 20px;
+}
+
+#right-panel ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+#right-panel h3 {
+  font-size: 1em;
+}
+#right-panel a {
+  color: #00BCD4;
+  text-decoration: none;
+}
+
+#right-panel li {
+  margin: 4px 0;
+}
