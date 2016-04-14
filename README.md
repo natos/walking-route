@@ -1,5 +1,5 @@
 # Map Routes
 
-Google Maps API Key for Demo:
+[See the demo](http://natos.github.io/map-routes/)
 
-    AIzaSyCYDPFTfr4iBb2gXWvJVzB35M-mq1Ob-oM
+![Screenshot](map-routes-demo.png)
