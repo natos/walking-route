@@ -61,3 +61,11 @@ html, body {
   width: 48%;
   opacity: .5;
 }
+
+.mdl-switch__label {
+  color: #ccc;
+}
+
+.mdl-switch__input:checked + .mdl-switch__label {
+  color: rgb(63,81,181);
+}
