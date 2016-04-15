@@ -15,6 +15,8 @@
     <div id="map"></div>
     <div id="right-panel">
       <div id="inner-panel">
+        <img src="hitec.png">
+        <p class="walking"><i>Create your walking route</i></p>
         <b>Start:</b>
         <select id="start">
           <option value="Dam, Amsterdam">Dam Square</option>
@@ -78,9 +80,22 @@
           <option value="Dam, Amsterdam">Dam Square</option>
         </select>
       </div>
-      <button id="route" type="submit" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
-      Route
-      </button>
+      <div class="actions">
+        <button id="route" type="submit" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+          <i class="material-icons">location_on</i>
+          Route
+        </button>
+      </div>
+      <div class="actions">
+        <button id="email" type="submit" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" disabled="disabled">
+          <i class="material-icons">email</i>
+          Email
+        </button>
+        <button id="print" type="submit" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" disabled="disabled">
+          <i class="material-icons">print</i>
+          Print
+        </button>
+      </div>
       <div id="totals"></div>
       <div id="directions-panel"></div>
   </div>

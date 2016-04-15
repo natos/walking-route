@@ -47,3 +47,17 @@ html, body {
 #right-panel li {
   margin: 4px 0;
 }
+.walking {
+  text-align: center;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1em;
+}
+
+#email, #print {
+  width: 48%;
+  opacity: .5;
+}
