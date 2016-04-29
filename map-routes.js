@@ -106,6 +106,14 @@ function start() {
   }
 
   directionsDisplay.setMap(map);
+  directionsDisplay.setOptions({
+    suppressMarkers: true//,
+    // polylineOptions: {
+    //   strokeWeight: 4,
+    //   strokeOpacity: 1,
+    //   strokeColor:  'red'
+    // }
+  });
 
   // document.getElementById('route').addEventListener('click', function() {
   //     calculateAndDisplayRoute(directionsService, directionsDisplay);
